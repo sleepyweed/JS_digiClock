@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+#clock2{
+  mix-blend-mode: screen;
+  background: rgb(118, 150, 180);
+  color: rgb(0, 0, 0);
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Raleway', sans-serif;
+  /* color: rgba(7, 188, 243, 0.7); */
+}
+#clkTime{
+  font-size: 11rem;
+}
+#clkDate{
+  font-size: 5rem;
+}
+/* .blend{
+  mix-blend-mode: exclusion;
+  color: aliceblue;
+} */
